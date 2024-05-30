@@ -26,6 +26,10 @@ const MainInfoComponent = () => {
         <h2 className='text-nowrap font-bold text-3xl'>Pourquoi choisir <br /> notre plateforme?</h2>
         <h4>Notre outil de création de quiz est conçu pour être inclusif et facile à utiliser. Que vous soyez un enseignant, un formateur ou simplement un passionné de quiz, notre plateforme vous permet de créer des contenus engageants et accessibles à tous.</h4>
       </div>
+
+      <div className="w-100 flex">
+        <img className="h-auto w-fit rounded-lg overflow-hidden shadow-xl dark:shadow-gray-800" src="src/assets/createquiz.png" alt="image description" />
+      </div>
     </>
   );
 };

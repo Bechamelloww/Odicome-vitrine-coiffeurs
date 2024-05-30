@@ -13,7 +13,6 @@ const Home = () => {
 		<>
 			<NavbarComponent></NavbarComponent>
 			<LayoutComponent component={MainInfoComponent}></LayoutComponent>
-			<LayoutComponent component={BentoInfoComponent}></LayoutComponent>
 			<FooterComponent></FooterComponent>
 		</>
 	);
