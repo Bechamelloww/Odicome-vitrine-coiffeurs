@@ -60,7 +60,6 @@ const FeatureComponent = () => {
         </div>
       </div>
     </div>
-
   );
 };
 
