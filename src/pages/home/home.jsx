@@ -5,12 +5,13 @@ import FeatureComponent from "../../components/feature.jsx";
 import NavbarComponent from "../../components/navbar.jsx";
 import MainInfoComponent from "../../components/mainInfo.jsx";
 import FooterComponent from "../../components/footer.jsx";
+import LayoutComponent from "../../components/layout.jsx";
 
 const Home = () => {
 	return (
 		<>
 			<NavbarComponent></NavbarComponent>
-			<MainInfoComponent></MainInfoComponent>
+			<LayoutComponent component={MainInfoComponent}></LayoutComponent>
 			<FooterComponent></FooterComponent>
 		</>
 	);
