@@ -8,8 +8,6 @@ const Home = () => {
   return (
     <>
       <NavbarComponent></NavbarComponent>
-      <FeatureComponent></FeatureComponent>
-      <PricingComponent></PricingComponent>
     </>
   );
 };
