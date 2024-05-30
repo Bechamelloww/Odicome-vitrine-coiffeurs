@@ -1,4 +1,3 @@
-// components/button.jsx
 import React from 'react';
 
 const FooterComponent = () => {
