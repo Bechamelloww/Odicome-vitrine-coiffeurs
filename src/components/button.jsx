@@ -3,9 +3,7 @@ import React from 'react';
 
 const ButtonComponent = () => {
   return (
-    <button>
-      TEST
-    </button>
+    <button>TEST</button>
   );
 };
 
