@@ -6,27 +6,27 @@ const BentoInfoComponent = () => {
         {
             title: "Interface Intuitive",
             description: "Créez des quiz en quelques clics grâce à notre interface utilisateur conviviale.",
-            image: "src/assets/Frame 1.png"
+            image: "public/Frame 1.png"
         },
         {
             title: "Accessibilité Totale",
             description: "Accessibles aux personnes avec des handicaps visuels, auditifs et moteurs.",
-            image: "src/assets/Capture d'écran 2024-05-31 154128.png"
+            image: "public/Capture d'écran 2024-05-31 154128.png"
         },
         {
             title: "Personnalisation",
             description: "Personnalisez vos quiz avec des images, des vidéos et des options de formatage.",
-            image: "src/assets/Frame (2).png"
+            image: "public/Frame (2).png"
         },
         {
             title: "Analyse des Résultats ",
             description: "Suivez les performances des participants avec des rapports détaillés.",
-            image: "src/assets/app_screen.png"
+            image: "public/app_screen.png"
         },
         {
             title: "Partage Facile",
             description: "Partagez vos quiz via un lien direct ou un Qr code.",
-            image: "src/assets/Layer_1.png"
+            image: "public/Layer_1.png"
         }
     ]
     return (

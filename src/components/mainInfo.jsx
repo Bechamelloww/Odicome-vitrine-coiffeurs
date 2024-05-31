@@ -19,7 +19,7 @@ const MainInfoComponent = () => {
       </section>
 
       <div className="w-100 flex">
-        <img className="h-auto w-fit rounded-lg overflow-hidden shadow-xl dark:shadow-gray-800" src="src/assets/app_screen.png" alt="image description" />
+        <img className="h-auto w-fit rounded-lg overflow-hidden shadow-xl dark:shadow-gray-800" src="public/app_screen.png" alt="image description" />
       </div>
 
       <div className="my-28 flex justify-between items-start gap-20 text-lg font-normal text-gray-500">
@@ -28,7 +28,7 @@ const MainInfoComponent = () => {
       </div>
 
       <div className="w-100 flex">
-        <img className="h-auto w-fit rounded-lg overflow-hidden shadow-xl dark:shadow-gray-800" src="src/assets/createquiz.png" alt="image description" />
+        <img className="h-auto w-fit rounded-lg overflow-hidden shadow-xl dark:shadow-gray-800" src="public/createquiz.png" alt="image description" />
       </div>
     </>
   );
