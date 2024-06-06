@@ -1,5 +1,5 @@
 import React from 'react';
-import BentoContentComponent from './../components/bentoContent.jsx'
+import BentoContentComponent from './../components/bentoContent.jsx';
 
 const BentoInfoComponent = () => {
     const data = [
@@ -19,7 +19,7 @@ const BentoInfoComponent = () => {
             image: "/Frame (2).png"
         },
         {
-            title: "Analyse des Résultats ",
+            title: "Analyse des Résultats",
             description: "Suivez les performances des participants avec des rapports détaillés.",
             image: "/app_screen.png"
         },
@@ -28,23 +28,20 @@ const BentoInfoComponent = () => {
             description: "Partagez vos quiz via un lien direct ou un Qr code.",
             image: "/Layer_1.png"
         }
-    ]
+    ];
+
     return (
         <>
-            <h2 className='w-full flex items-center justify-center mt-20 mb-10 font-bold text-2xl'>Des Fonctionnalités Adaptées à Vos Besoins</h2>
-            <div className="grid auto-rows-[auto] grid-cols-3 gap-4 mt-10">
-                {[...Array(5)].map((_, i) => (
-                    // <div
-                    //     key={i}
-                    //     className={`row-span-1 rounded-xl border-2 border-slate-400/10 bg-neutral-100 p-4 dark:bg-neutral-900 ${i === 3 || i === 6 ? "col-span-2" : ""
-                    //         }`}
-                    // ></div>
+            <h2 id="bento-info-heading" className='w-full flex items-center justify-center mt-20 mb-10 font-bold text-2xl'>Des Fonctionnalités Adaptées à Vos Besoins</h2>
+            <div className="grid auto-rows-[auto] grid-cols-3 gap-4 mt-10" aria-labelledby="bento-info-heading" role="region">
+                {data.map((item, i) => (
                     <BentoContentComponent
-                        title={data[i].title}
-                        description={data[i].description}
-                        image={data[i].image}
-                        className={`row-span-1 rounded-xl border-2 border-slate-400/10 bg-neutral-100 p-4 dark:bg-neutral-900 ${i === 3 || i === 6 ? "col-span-2" : ""}`}
-                    ></BentoContentComponent>
+                        key={i}
+                        title={item.title}
+                        description={item.description}
+                        image={item.image}
+                        className={`row-span-1 rounded-xl border-2 border-slate-400/10 bg-neutral-100 p-4 dark:bg-neutral-900 ${i === 3 ? "col-span-2" : ""}`}
+                    />
                 ))}
             </div>
         </>
